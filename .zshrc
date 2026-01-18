@@ -103,15 +103,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-DOTFILES_HOME=$HOME/.dotfiles
+DOT_HOME=$HOME/.dot
 
-# Source all .zsh files in $DOTFILES_HOME
-if [ -d "$DOTFILES_HOME" ]; then
-   for file in "$DOTFILES_HOME"/**/*.zsh; do
+# Source all .zsh files in $DOT_HOME
+if [ -d "$DOT_HOME" ]; then
+   for file in "$DOT_HOME"/**/*.zsh; do
       [ -f "$file" ] && source "$file"
    done
 fi
-
-
-
-
