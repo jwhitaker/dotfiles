@@ -2,7 +2,7 @@
 
 My attempt at dotfiles.
 
-## Install
+## Installing
 
 ```bash
 curl https://raw.githubusercontent.com/jwhitaker/dot/refs/heads/main/.dot/install.sh | bash
@@ -10,10 +10,9 @@ curl https://raw.githubusercontent.com/jwhitaker/dot/refs/heads/main/.dot/instal
 
 ## Usage
 
-Instead of calling git, call dot:
+Use `dot` instead of `git`:
 
 ```bash
-# Create a file named file1
 dot add file1
 dot commit -m "<some commit comment>"
 dot push
