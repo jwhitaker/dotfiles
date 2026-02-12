@@ -111,3 +111,4 @@ if [ -d "$DOT_HOME" ]; then
       [ -f "$file" ] && source "$file"
    done
 fi
+export PATH="$HOME/.local/bin:$PATH"

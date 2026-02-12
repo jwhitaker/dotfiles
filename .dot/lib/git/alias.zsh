@@ -1,9 +1,9 @@
-alias ggst='git status'
-alias ggpl='git pull'
-alias ggps='git push'
-alias ggco='git checkout'
-alias ggcm='git commit -m'
-alias ggbr='git branch'
-alias gglo='git log --oneline --graph --decorate'
+alias gst='git status'
+alias gpl='git pull'
+alias gps='git push'
+alias gco='git checkout'
+alias gcm='git commit -m'
+alias gbr='git branch'
+alias glo='git log --oneline --graph --decorate'
 
 
